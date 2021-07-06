@@ -1,0 +1,201 @@
+/*CSS Reset*/
+
+/*Header Styling*/
+
+    
+
+#top1{
+    text-align:left;
+    
+    font-size:21px;
+
+}
+/* Navigation bar styling*/
+
+/*Navbar image styling*/
+
+/*Navbar Functionality*/
+#navbar{
+    display:flex;
+    
+    text-align: right;
+    height: 14vh;
+    width: 100vw;
+    
+    margin-top:10px;
+   
+   border-radius:15px;
+}
+.horizontal line img{
+width: 100%;
+}
+
+/*Navbar content functionality*/
+#navcontent{
+    display: flex;
+    justify-content: right;
+    margin: auto;
+    flex-direction: column;
+}
+
+
+/*Navbar content styling*/
+ul li{
+    list-style: none;
+    text-align: right;
+
+}
+ul li a{
+    padding: 10px;
+    color:black;
+    text-decoration: none;
+    border-radius:10px;
+}
+ul li a:hover{
+    background-color:rgb(247, 99, 0);
+    border-radius: 10px;
+}
+body{
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+    
+
+}
+h1{
+    font-size: 50px;
+}
+section{
+    display: flex;
+}
+.horizontal line div{
+width: 50%;
+float: left;
+}
+.horizontal line{
+    width:50%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 8%;
+}
+
+.horizontal line img {
+    width: 50%;
+    background-position: 0%;
+}
+    
+
+ 
+h4 span{
+    color: rgb(255, 123, 0);
+    font-size: small;
+}
+
+ .anchor-button{
+    text-decoration: none;
+    background: linear-gradient(45deg, yellow, rgb(255, 72, 0));
+    padding: 10px 25px 18px;
+    border-radius: 25px;
+    color: white;
+    font-weight: 200px;
+
+}
+#img{
+    float: right;
+}
+.first-part{
+    
+    
+ padding: 50px 50px 50px 50px;
+   border-radius: 2%;
+   display: flex;
+   
+}
+.first-part img
+{
+    float: left;
+}
+.secend-part{
+    
+    background-position:center;
+    background-image: url('images/shapes/Frame\ 57.jpg');
+    text-align: right;
+    display: flex;
+    justify-content:center;
+    
+}
+ #features{
+    text-align: center;
+    background-color: rgb(243, 243, 0);
+    
+    justify-content:center;
+    
+}
+.experience-area-3dr-part div {
+    margin: auto;
+    background-repeat: no-repeat;
+    float: inline-start;
+    height: 80%;
+    weight :100%;
+}
+.experience-area-3dr-part h2{
+    color: orange;
+}
+
+.experience-area-3dr-part div{
+    padding: 10px;
+    box-shadow: 5px 10px 18px #888888;
+    
+}
+#three-img{
+    display:flex;
+    width: 200px;
+    height:50px;
+    margin:auto;
+    flex: content;
+    
+}
+#quality-food{
+    
+    border: 5px solid;
+    border-image: linear-gradient(180deg, lightsalmon, tomato);
+    border-image-slice: 3;
+    text-align: center;
+    font-size: smaller;
+    border-radius: 5%;
+}
+#super-tastse{
+    border: 5px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 3;
+    text-align: center;
+    font-size: smaller;
+    padding: 2px 16px;
+    border-radius: 5%;
+}
+#fast-delivery{
+    border: 5px solid;
+    border-image: linear-gradient(180deg, blue, cyan);
+    border-image-slice: 3;
+    text-align: center;
+    font-size: smaller;
+    border-radius: 5%;  
+}
+#three-img{
+    flex: 50%;
+    padding: 10px;
+    
+
+}
+
+footer{
+    height: 100px;
+    weight:100% ;
+    background-color: black;
+    font-display: center ;
+    text-align: center;
+}
+
+span h2{
+    color: rgb(248, 232, 9);
+
+}
