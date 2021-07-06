@@ -10,52 +10,9 @@
     font-size:21px;
 
 }
-/* Navigation bar styling*/
+ 
 
-/*Navbar image styling*/
-
-/*Navbar Functionality*/
-#navbar{
-    display:flex;
-    
-    text-align: right;
-    height: 14vh;
-    width: 100vw;
-    
-    margin-top:10px;
-   
-   border-radius:15px;
-}
-.horizontal line img{
-width: 100%;
-}
-
-/*Navbar content functionality*/
-#navcontent{
-    display: flex;
-    justify-content: right;
-    margin: auto;
-    flex-direction: column;
-}
-
-
-/*Navbar content styling*/
-ul li{
-    list-style: none;
-    text-align: right;
-
-}
-ul li a{
-    padding: 10px;
-    color:black;
-    text-decoration: none;
-    border-radius:10px;
-}
-ul li a:hover{
-    background-color:rgb(247, 99, 0);
-    border-radius: 10px;
-}
-body{
+ body {
     margin: 0px;
     font-family: 'Poppins', sans-serif;
     
